@@ -1,0 +1,35 @@
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.footer h5 {
+    font-weight: bold;
+}
+
+.footer .list-unstyled a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.footer .list-unstyled a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons a {
+    font-size: 1.5rem;
+    color: #f8f9fa;
+    margin-right: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #17a2b8;
+}
+
+.footer-bottom {
+    background-color: #23272b;
+    color: #adb5bd;
+}
