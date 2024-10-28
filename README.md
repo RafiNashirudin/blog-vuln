@@ -1,4 +1,3 @@
-```markdown
 # Simple Blog Application
 
 Aplikasi ini adalah blog sederhana dengan kontrol akses untuk pengguna dan administrator. Aplikasi ini mendukung pembuatan, pengeditan, dan tampilan artikel, serta manajemen pengguna.
@@ -12,9 +11,10 @@ Aplikasi ini adalah blog sederhana dengan kontrol akses untuk pengguna dan admin
 
 ### 1. Clone Repository
 Clone repository ini ke direktori server Anda:
+
 ```bash
-git clone https://github.com/username/blog-app.git
-cd blog-app
+git clone https://github.com/RafiNashirudin/blog-vuln.git
+cd blog-vuln
 ```
 
 ### 2. Buat Database MySQL
