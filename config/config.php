@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "512019";
-$dbname = "blog_db";
+$host = "localhost";       // Nama host
+$db   = "blog_db";         // Nama database
+$user = "root";            // Nama user MySQL
+$pass = "your_password";   // Password MySQL
 
 // Membuat koneksi
 $conn = new mysqli($servername, $username, $password, $dbname);
