@@ -71,9 +71,9 @@ Buka file `config.php` di root proyek dan sesuaikan pengaturan database:
 ```php
 <?php
 $host = 'localhost';       // Nama host
-$db   = 'blog_db';         // Nama database
 $user = 'root';            // Nama user MySQL
 $pass = 'your_password';   // Password MySQL
+$db   = 'blog_db';         // Nama database
 
 $conn = new mysqli($host, $user, $pass, $db);
 
@@ -86,7 +86,7 @@ if ($conn->connect_error) {
 Gantilah `your_password` dengan password MySQL Anda.
 
 ### 4. Jalankan Aplikasi
-- Arahkan server Anda ke direktori `blog-app`.
+- Arahkan server Anda ke direktori `blog-vuln`.
 - Buka aplikasi di browser untuk memastikan semuanya bekerja dengan baik.
 
 ## Fitur
